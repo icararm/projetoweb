@@ -6,6 +6,7 @@ body{
     font-size: 20px;
     height: 100vh;
     width: 100vw;
+    padding: 0;
 }
 
 *{
@@ -42,7 +43,7 @@ header{
 }
 
 .menu nav a{
-    color: rgb(202, 44, 75);
+    color: red;
     text-decoration: none;
     padding-right: 10px;
     font-size: 20px;
@@ -75,7 +76,7 @@ header{
 }
 
 .search-box {
-    background: rgb(202, 44, 75);
+    background: red;
     position: absolute;
     top:13%;
     left:50%;
