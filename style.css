@@ -9,10 +9,11 @@ body{
     padding: 0;
 }
 
+/* reset de margem e padding para todos os elementos */
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 .container{
@@ -38,6 +39,7 @@ header{
     cursor: pointer;
 }
 
+/* estilo do menu de navegação */
 .menu{
     width: 50%;
 }
@@ -74,7 +76,7 @@ header{
     border-radius: 8px;
     cursor: pointer;
 }
-
+/* estilo da caixa de pesquisa */
 .search-box {
     background: red;
     position: absolute;
@@ -99,6 +101,8 @@ header{
     font-size: 16px;
     line-height: 40px;
 }
+
+/* estilo do slideshow */
 .slideshow{
     position: absolute;
 
@@ -110,7 +114,7 @@ header{
 .slider{
     width: 800px;
     height: 500px;
-    overflow: hidden;
+    overflow: hidden; /* esconde conteúdo além do limite */
     
 }
 
@@ -129,7 +133,7 @@ header{
 
 input{
     display: none;
-}
+} /* esconde o input */
 
 .manual-btn{
     border: 2px solid #dd1111;
@@ -163,7 +167,7 @@ input{
     height: 100%;
 }
 
-
+/* estilo dos slides baseado na seleção do radio button */
 #radio1:checked ~ .first {
     margin-left: 0;
 }
