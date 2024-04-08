@@ -234,3 +234,41 @@ input{
     margin-top: 10px;
     height: 90%;
 }
+main{
+    .page-title{
+        background-color: #dd1111;
+        font-size: 40px;
+        padding: 50px 0;
+        text-align: center;
+    }
+    .content{
+        display: flex;
+
+        section{
+            flex: 1;
+        }
+        aside{
+            background-color: #dd1111;
+            min-width: 250px;
+        }
+    }
+}
+
+table{
+    width: 100%;
+    border-color: collapse;
+    thead{
+        tr{
+            border-bottom: 3px solid #eee;
+            th{
+                text-align: left;
+                padding-bottom: 10px;
+                text-transform: uppercase;
+                color: black;
+            }
+        }
+    }
+    tbody{
+
+    }
+}
