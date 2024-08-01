@@ -8,63 +8,77 @@
     <link rel="shortcut icon" href="imagens/favicon_lapis.ico" type="image/x-icon">   <!-- favicon no projeto -->
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo"><img src="imagens/logo-papelariarocha300.jpeg" alt="logo"></div>
-            <div class="menu">
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Papelaria</a>
-                    <a href="#">Ultilidades</a>
-                    <a href="#">Brinquedos</a>
-                    <a href="#">Cosméticos</a>
-                </nav>
+    <div class="Carrinho">
+        <header>
+            <div class="container">
+                <div class="logo"><img src="imagens/logo-papelariarocha300.jpeg" alt="logo"></div>
+                <div class="menu">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">Papelaria</a>
+                        <a href="#">Ultilidades</a>
+                        <a href="#">Brinquedos</a>
+                        <a href="#">Cosméticos</a>
+                    </nav>
+                </div>
+                <div class="sociais">
+                    <a href="https://www.instagram.com/rochapapelariaba?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="target="_blank"><button><i class="fa-brands fa-instagram"></i></button></a> <!-- o link do instagram da empresa -->
+    
+                    <a href="carrinhoDeCompras.html">
+                    <i class="fa-solid fa-cart-shopping" style="color: red;"></i></a>
+                </div>
             </div>
-            <div class="sociais">
-                <a href="https://www.instagram.com/rochapapelariaba?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="target="_blank"><button><i class="fa-brands fa-instagram"></i></button></a> <!-- o link do instagram da empresa -->
-
-                <a href="carrinhoDeCompras.html">
-                <i class="fa-solid fa-cart-shopping" style="color: red;"></i></a>
+        </header>
+        <main>
+            <div class="page-title">Seu Carrinho</div>
+            <div class="content">
+                <section>
+    
+                    <table>
+    
+                        <thead>
+                            <tr>
+                                <th>Produto</th>
+                                <th>Preço</th>
+                                <th>Quantidade</th>
+                                <th>Total</th>
+                                <th>-</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                           <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="name">Nome do produto</div>
+                                        <div class="category">Categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 120</td>
+                            <td>
+                                <div class="qty">
+                                    <button>-</button>
+                                    <span>2</span>
+                                    <button>+</button>
+                                </div>
+                            </td>
+                            <td>R$ 240</td>
+                            <td>
+                                <button>
+                                    <i class='bx bx-x-circle'></i>
+                                </button>
+                            </td>
+                           </tr>
+                        </tbody>
+    
+                    </table>
+                </section>
+                <aside>resumo das compras</aside>
             </div>
-        </div>
-    </header>
-    <main>
-        <div class="page-title">Seu Carrinho</div>
-        <div class="content">
-            <section>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Produto</th>
-                            <th>Preço</th>
-                            <th>Quantidade</th>
-                            <th>Total</th>
-                            <th>-</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <td></td>
-                        <td>R$ 120</td>
-                        <td>
-                            <div class="qty">
-                                <button>-</button>
-                                <span>2</span>
-                                <button>+</button>
-                            </div>
-                        </td>
-                        <td>R$ 240</td>
-                        <td>
-                            <button>
-                                <i class='bx bx-x-circle'></i>
-                            </button>
-                        </td>
-                    </tbody>
-
-                </table>
-            </section>
-            <aside>resumo das compras</aside>
-        </div>
-    </main>
+        </main>
+    </div>  
 </body>
 </html>
